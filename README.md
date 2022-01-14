@@ -5,9 +5,9 @@ Iris segmentation and localization in unconstrained environments is challenging 
 ﻿This code was implemented by KartalOl Team, contains Farhang Jaryani, Jalil Nourmohammadi Khiarak, Seyed Naeim Moafinejad, Samaneh Salehi Nasab, Yasin Amini, and Morteza Noshad.
 The code is contains  9 python files and 3 save model files (.h5), 3 output folders (CASIA-Iris-Africa_output, CASIA-Iris-Asia_output, and CASIA-Iris-Mobile-V1.0_output).
 
-To run the code do as follows:
+### To run the code do as follows:
 
-Requirement:
+#### Requirement:
 
 1- Keras
 2- Numpy
@@ -20,15 +20,15 @@ Requirement:
 In order to run each categories, you are supposed to mention the name of category after -f as follows.:
 Open a terminal in the current directory and run:
 
-1- python3 KartalOl_Team.py -f Africa
+        1- python3 KartalOl_Team.py -f Africa
 
 Output: The output folders will be generated automatically. CASIA-Iris-Africa_output would be the output of the run code.
 
-2- python3 KartalOl_Team.py -f Asia
+        2- python3 KartalOl_Team.py -f Asia
 
 Output: The output folders will be generated automatically. CASIA-Iris-Asia_output would be the output of the run code.
 
-3- python3 KartalOl_Team.py -f Mobile
+        3- python3 KartalOl_Team.py -f Mobile
 
 Output: The output folders will be generated automatically. CASIA-Iris-Mobile-V1.0_output would be the output of the run code.
 
