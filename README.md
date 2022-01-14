@@ -10,11 +10,17 @@ The code is contains  9 python files and 3 save model files (.h5), 3 output fold
 #### Requirement:
 
 1- Keras
+
 2- Numpy
+
 3- Python 3 
+
 4- Tensorflow version 2 or new one
+
 5- Cv2 (Opencv- python)
+
 6- skimage.morphology import skeletonize
+
 6- Ubuntu 18
 
 In order to run each categories, you are supposed to mention the name of category after -f as follows.:
