@@ -10,7 +10,7 @@ Abstarct:
 Iris segmentation and localization in unconstrained environments is challenging due to long distances, illumination variations, limited user cooperation, and moving subjects. To address this problem, we present a U-Net with a pre-trained MobileNetV2 deep neural network method. We employ the pre-trained weights given with MobileNetV2 for the ImageNet dataset and fine-tune it on the iris recognition and localization domain. Further, we have introduced a new dataset, called KaratolOl, to better evaluate detectors in iris recognition scenarios. To provide domain adaptation, we fine-tune the MobileNetV2 model on the provided data for NIR-ISL 2021 from the CASIA-Iris-Asia, CASIA-Iris-M1, and CASIA-Iris-Africa and our dataset. We also augment the data by performing left-right flips, rotation, zoom, and brightness. We chose the binarization threshold for the binary masks by iterating over the images in the provided dataset. The proposed method is tested and trained in CASIA-Iris-Asia, CASIA-Iris-M1, CASIA-Iris-Africa, along the KaratolOl dataset. The experimental results highlight that our method surpasses state-of-the-art methods on mobile-based benchmarks. The codes and evaluation results are publicly available at https://github.com/Jalilnkh/KartalOl-NIR-ISL2021031301 .
 
 
-﻿This code was implemented by KartalOl Team, contains Farhang Jaryani, Jalil Nourmohammadi Khiarak, Seyed Naeim Moafinejad, Samaneh Salehi Nasab, Yasin Amini, and Morteza Noshad.
+This code was implemented by KartalOl Team, contains Farhang Jaryani, Jalil Nourmohammadi Khiarak, Seyed Naeim Moafinejad, Samaneh Salehi Nasab, Yasin Amini, and Morteza Noshad.
 The code is contains  9 python files and 3 save model files (.h5), 3 output folders (CASIA-Iris-Africa_output, CASIA-Iris-Asia_output, and CASIA-Iris-Mobile-V1.0_output).
 
 ### To run the code do as follows:
@@ -30,6 +30,19 @@ The code is contains  9 python files and 3 save model files (.h5), 3 output fold
 6- skimage.morphology import skeletonize
 
 6- Ubuntu 18
+
+7- the most important part is trained weights. Because trainingset is not possible to share I will uplaod wieghts in the Google drive you could find it in the following links:
+
+   7-1: 
+   
+   7-2:
+   
+   7-3: 
+
+After downloading the wieghts you should put them in the main directory:
+
+       ~/KartalOl-NIR-ISL2021031301/
+      
 
 In order to run each categories, you are supposed to mention the name of category after -f as follows.:
 Open a terminal in the current directory and run:
