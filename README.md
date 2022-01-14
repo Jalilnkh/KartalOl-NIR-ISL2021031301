@@ -33,11 +33,11 @@ The code is contains  9 python files and 3 save model files (.h5), 3 output fold
 
 7- the most important part is trained weights. Because trainingset is not possible to share I will uplaod wieghts in the Google drive you could find it in the following links:
 
-   7-1: 
+   7-1: Trained weights for Outter boundary https://drive.google.com/file/d/1WrOcJNUmM1anyg-iyOqExtbZwaXcoqNR/view?usp=sharing
    
-   7-2:
+   7-2: Trained weights for Inner boundary https://drive.google.com/file/d/1tqtyFs0eu7RsCkl9SyWdwdzLaE4pr5gW/view?usp=sharing 
    
-   7-3: 
+   7-3: Trained weights for Iris segmentation https://drive.google.com/file/d/1kJZcUX5lDqc7BiU7jSj0GTZuZwepbns8/view?usp=sharing 
 
 After downloading the wieghts you should put them in the main directory:
 
