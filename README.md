@@ -61,3 +61,13 @@ Output: The output folders will be generated automatically. CASIA-Iris-Mobile-V1
 
 
 PS: the outputs for all given test files are attached. 
+
+
+### Reference:
+
+Please cite the following papers if you are using the code:
+
+[1] Jalil Nourmohammadi Khiarak*, et al., "KartalOl: Transfer learning using deep neural network for iris segmentation and localization: New dataset for iris segmentation", 2021, https://arxiv.org/abs/2112.05236.
+
+[2] Wang, Caiyong, et al. "NIR iris challenge evaluation in non-cooperative environments: Segmentation and localization." 2021 IEEE International Joint Conference on Biometrics (IJCB). IEEE, 2021.
+
