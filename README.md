@@ -31,7 +31,7 @@ The code is contains  9 python files and 3 save model files (.h5), 3 output fold
 
 6- Ubuntu 18
 
-7- the most important part is trained weights. Because trainingset is not possible to share I will uplaod wieghts in the Google drive you could find it in the following links:
+7- the most important part is trained weights. Because trainingset is not possible to share I will upload wieghts in the Google drive you could find it in the following links:
 
    7-1: Trained weights for Outter boundary https://drive.google.com/file/d/1WrOcJNUmM1anyg-iyOqExtbZwaXcoqNR/view?usp=sharing
    
